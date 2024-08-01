@@ -42,7 +42,7 @@
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 40%;
 }
 
 .secundario {
@@ -77,7 +77,7 @@
 }
 
 .dispositivos__titulo {
-    font-size: 48px;
+    font-size: 38px;
     color: var(--branco-principal);
 }
 
@@ -126,5 +126,3 @@
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
 }
-
-

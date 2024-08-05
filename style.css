@@ -1,4 +1,5 @@
 .container__titulo {
+    color: white;
     font-size: 28px;
     font-weight: 700;
 }
@@ -17,15 +18,17 @@
     color: var(--cinza-secundario);
 }
 
-.container__botao:hover {
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
+.container__botao :hover {
+    background-color: var(--cor-de-fundo);
+    color: var(--botao-azul-efeito);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    
 }
 
 .principal {
+    background-color: #00030C;
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -46,6 +49,7 @@
 }
 
 .secundario {
+    background-color: #00030C;
     align-items: center;
     margin: 0 10em;
 }
@@ -62,6 +66,7 @@
 }
 
 .container__descricao {
+    background-color: #00030C;
     padding: 2em;
 }
 
@@ -73,6 +78,7 @@
 }
 
 .dispositivos {
+    background-color: #00030C;
     text-align: center;
 }
 
@@ -93,7 +99,7 @@
     margin-top: 1em;
 }
 
-.lista__link a{
+.lista__link a :hover{
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
@@ -106,15 +112,13 @@
 }
 
 .rodape {
+    background-color: #00030C;
     text-align: center;
     margin: 5em 3em;
 }
 
-.lista__link a:hover {
-    color: var(--botao-azul);
-}
 
-.lista__link a:active {
+.lista__link a :active {
     color: purple;
 }
 
@@ -126,3 +130,4 @@
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
 }
+
